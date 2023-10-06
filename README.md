@@ -68,7 +68,7 @@ El jugador debe seguir estas reglas para jugar:
 ## Autores/Integrantes
 
 <ul>
- <li>Bruno Lucarelli</li>
+ <li>Lucarelli Bruno</li>
  <li>Mosconi Ignacio</li>
  <li>Terreno Valentino</li>
 </ul>
