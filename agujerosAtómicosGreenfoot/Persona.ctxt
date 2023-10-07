@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Persona
+comment0.text=\r\n\ La\ clase\ Persona\ crear\u00E1\ objetos\ personas\ que\ aparecer\u00E1n\ en\ la\ parte\ superior\ de\ la\ pantalla\ \r\n\ y\ bajar\u00E1n\ 1\ fila\ por\ turno,\ hasta\ eventualmente\ chocar\ contra\ un\ agujero\ negro.\ Si\ el\ agujero\r\n\ est\u00E1\ encendido,\ se\ termina\ la\ partida,\ caso\ contrario\ se\ elimina\ la\ persona.\r\n\ \r\n\ Ignacio\ Mosconi\r\n\ 07/10/23\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ M\u00C9TODO\ ACT\ -\ Es\ llamado\ cada\ vez\ que\ el\ bot\u00F3n\ Act\ o\ Run\ se\ presione\ en\ la\ ventana\ principal\ de\ Greenfoot.\r\n
+comment2.params=posX\ posY
+comment2.target=void\ setPos(int,\ int)
+comment2.text=\r\n\ M\u00C9TODOS\r\n
+comment3.params=
+comment3.target=void\ bajarFila()
+numComments=4
