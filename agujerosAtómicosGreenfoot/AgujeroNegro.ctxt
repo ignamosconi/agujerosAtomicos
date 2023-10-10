@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=AgujeroNegro
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ AgujeroNegro\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ M\u00C9TODO\ ACT\ -\ Es\ llamado\ cada\ vez\ que\ el\ bot\u00F3n\ Act\ o\ Run\ se\ presione\ en\ la\ ventana\ principal\ de\ Greenfoot.\r\n
+comment2.params=
+comment2.target=void\ cambiarEstado()
+comment3.params=
+comment3.target=int\ getEstado()
+numComments=4

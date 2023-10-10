@@ -1,8 +1,13 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.ArrayList;
+import java.util.List;
 
 public class MyWorld extends World
 {
-
+    private PasarTurno botonPasar;
+    private int random;
+    
+    private ArrayList <String> filaCohetes;
     /**
      * Constructor para el tablero
      */
@@ -13,10 +18,18 @@ public class MyWorld extends World
         //Establecemos el fondo a la imagen que colocamos en 
         setBackground("fondoTablero.png");
         
+        //Creamos un objeto PasarTurno, que permite al jugador pasar su turno.
+        PasarTurno botonPasar = new PasarTurno(); 
+        addObject(botonPasar, 625, 600);
         
-        //Elegimos aleatoriamente 8 cartas del tipo Persona, UFO y Vacía y las colocamos entre la 1er y 3ra fila
+        //Utilizando los métodos del objeto PasarTurno, generamos dos filas de enemigos al inicializar el tablero.
+        botonPasar.generarFilaEnemigos(50);
+        botonPasar.generarFilaEnemigos(250);
         
+        //Utilizando un método propio de Tablero, generamos una fila de cohetes y cartas vacías, con 50% de probabilidad cada una. 
+        botonPasar.generarFilaCohetes();
         
-        
+        //Instanciamos 4 agujeros negros apagados en la fila y = 350
+        botonPasar.generarFilaAgujerosNegros();
     }
 }

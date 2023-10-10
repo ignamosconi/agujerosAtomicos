@@ -34,6 +34,6 @@ public class UFO extends Actor
     
     //Suponiendo que persona está ya ubicada en una posición de fila, la bajamos 100 pixeles en Y, lo que hace que baje una fila.
     public void bajarFila() {
-        setLocation(getX(), getY()-100);
+        setLocation(getX(), getY()+100);
     }
 }

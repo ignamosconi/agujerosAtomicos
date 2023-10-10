@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=PasarTurno
+comment0.text=\ \r\n\ Al\ presionar\ el\ bot\u00F3n\ pasar\ turno\ se\ terminar\u00E1\ el\ turno\ del\ juegador,\ por\ lo\ que\ se\ renovar\u00E1n\ sus\ cartas\ de\ poder\ y\ \r\n\ en\ caso\ de\ cumplirse\ la\ condici\u00F3n,\ se\ renovar\u00E1\ una\ fila\ de\ enemigos.\ \r\n\ \r\n\ Las\ posiciones\ x\ e\ y\ de\ cada\ "fila"\ y\ "columna"\ dentro\ del\ tablero\ est\u00E1n\ especificadas\ en\ la\ documentaci\u00F3n,\ en\ el\ t\u00EDtulo\r\n\ "Definiendo\ l\u00EDmites\ del\ tablero".\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ M\u00C9TODO\ ACT\ -\ Es\ llamado\ cada\ vez\ que\ el\ bot\u00F3n\ Act\ o\ Run\ se\ presione\ en\ la\ ventana\ principal\ de\ Greenfoot.\r\n
+comment2.params=fila
+comment2.target=void\ generarFilaEnemigos(int)
+comment3.params=filaEnemigos\ fila
+comment3.target=void\ instanciarEnemigos(java.util.ArrayList,\ int)
+comment4.params=num
+comment4.target=int\ getColumna(int)
+comment5.params=
+comment5.target=void\ bajarFilas()
+comment6.params=
+comment6.target=void\ generarFilaCohetes()
+comment7.params=filaCohetes
+comment7.target=void\ instanciarCohetes(java.util.ArrayList)
+comment8.params=
+comment8.target=void\ generarFilaAgujerosNegros()
+numComments=9

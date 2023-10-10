@@ -20,10 +20,7 @@ public class Persona extends Actor
     /**
      * MÉTODO ACT - Es llamado cada vez que el botón Act o Run se presione en la ventana principal de Greenfoot.
      */
-    public void act() {
-        getWorld().showText("Posición X:"+getX(),100,20);
-        getWorld().showText("Posición Y:"+getY(),450,20);
-    }
+    public void act() { }
     
     /**
      * MÉTODOS
@@ -36,7 +33,7 @@ public class Persona extends Actor
     
     //Suponiendo que persona está ya ubicada en una posición de fila, la bajamos 100 pixeles en Y, lo que hace que baje una fila.
     public void bajarFila() {
-        setLocation(getX(), getY()-100);
+        setLocation(getX(), getY()+100);
     }
     
 }
