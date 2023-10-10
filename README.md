@@ -1,6 +1,6 @@
 # Agujeros Atómicos - Trabajo Práctico MOON 1110011
 
-Trabajo práctico desarrollado bajo la cátedra **Paradigmas de programación** utilizando Greenfoot para crear dicho juego. 
+Trabajo práctico desarrollado bajo la cátedra de **Paradigmas de programación** utilizando el software Greenfoot. 
 <br>
 
 **Profesores**
