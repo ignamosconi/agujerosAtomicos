@@ -17,7 +17,40 @@ public class AgujeroNegro extends Actor
      * MÉTODO ACT - Es llamado cada vez que el botón Act o Run se presione en la ventana principal de Greenfoot.
      */
     public void act() {
-        // Add your action code here.
+        //COLISIONES CON PERSONA
+        
+        //Si colisionamos con una persona y el agujero está encendido, terminamos el juego
+        if ( isTouching(Persona.class) && (getEstado() == 1) ) {
+            getWorld().removeObjects(getWorld().getObjects(PasarTurno.class));
+            getWorld().showText("GAME OVER - CIVIL MUERTO",300,300);   
+        
+        //Si colisionamos con una persona y el agujero está apagado, la borramos.
+        } else if ( isTouching(Persona.class) && (getEstado() == 0) ) {
+            removeTouching(Persona.class);
+        }
+        
+        
+        //COLISIONES CON UFO
+        
+        //Si el agujero está encendido, borramos el UFO y cambiamos el estado del agujero.
+        
+        if ( isTouching(UFO.class) && (getEstado() == 1) ) {
+            getWorld().removeObjects(getWorld().getObjects(UFO.class));
+            cambiarEstado();
+        
+        //Si el agujero está apagado, lo bajamos a la siguiente fila para detectar colisiones con los cohetes
+        } else if ( isTouching(UFO.class) && (getEstado() == 0) ) {
+            //Bajamos 
+        }
+        
+        
+        
+        //COLISIONES CON VACÍA
+        
+        //Borramos siempre los objetos de clase vacía, sin importar el estado del agujero negro.
+        if ( isTouching(Vacía.class) ) {
+            removeTouching(Vacía.class);
+        }
     }
     
     public void cambiarEstado() {

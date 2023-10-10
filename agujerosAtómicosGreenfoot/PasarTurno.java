@@ -20,7 +20,7 @@ public class PasarTurno extends Actor {
     private int fila; 
     private int random;
     private int num;
-    private int contador;
+    private int contador = 0;
     
     private ArrayList <String> filaEnemigos;
     private ArrayList <String> filaCohetes;
@@ -47,6 +47,8 @@ public class PasarTurno extends Actor {
         }
     }
     
+    
+    //GENERACIÓN DE ENEMIGOS
     public void generarFilaEnemigos(int fila) {
         //Creamos una nueva colección, donde colocaremos los nombres de las 4 cartas que irán en la fila.
         filaEnemigos = new ArrayList<String>();
@@ -95,26 +97,6 @@ public class PasarTurno extends Actor {
                 Vacía cartaVacía = new Vacía();        
                 getWorld().addObject(cartaVacía, getColumna(i), fila);  
             }
-        }
-    }
-    
-    public int getColumna(int num) {
-        //Recibimos un número entero que varía del 0 al 3 y en
-        //base a él asignamos la posición en Y
-        //correspondiente dentro del tablero. 
-        
-        //i=0 → y=200, i=1 → y=300, i=2 → y=400, i=3 → y=500
-        if (num == 0) {
-            return 200;
-        } else if (num == 1) {
-            return 300;
-        } else if (num == 2) {
-            return 400;
-        } else if (num == 3) {
-            return 500;
-        } else {
-            //si num no varía entre 0 y 3, devolvemos la coordenada 0.
-            return 0;
         }
     }
     
@@ -197,6 +179,26 @@ public class PasarTurno extends Actor {
             AgujeroNegro cartaAgujeroNegro = new AgujeroNegro();     
                 
             getWorld().addObject(cartaAgujeroNegro, getColumna(i), 450);
+        }
+    }
+    
+    public int getColumna(int num) {
+        //Recibimos un número entero que varía del 0 al 3 y en
+        //base a él asignamos la posición en Y
+        //correspondiente dentro del tablero. 
+        
+        //i=0 → y=200, i=1 → y=300, i=2 → y=400, i=3 → y=500
+        if (num == 0) {
+            return 200;
+        } else if (num == 1) {
+            return 300;
+        } else if (num == 2) {
+            return 400;
+        } else if (num == 3) {
+            return 500;
+        } else {
+            //si num no varía entre 0 y 3, devolvemos la coordenada 0.
+            return 0;
         }
     }
     
