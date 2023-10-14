@@ -1,12 +1,6 @@
 #BlueJ class context
-comment0.target=AgujeroNegro
+comment0.target=CarryIzq
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\r\n\ M\u00C9TODO\ ACT\ -\ Es\ llamado\ cada\ vez\ que\ el\ bot\u00F3n\ Act\ o\ Run\ se\ presione\ en\ la\ ventana\ principal\ de\ Greenfoot.\r\n
-comment2.params=
-comment2.target=void\ cambiarEstado()
-comment3.params=
-comment3.target=int\ getEstado()
-comment4.params=estado
-comment4.target=void\ establecerEstado(int)
-numComments=5
+numComments=2

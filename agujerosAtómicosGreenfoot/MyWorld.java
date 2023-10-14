@@ -31,5 +31,8 @@ public class MyWorld extends World
         
         //Instanciamos 4 agujeros negros apagados en la fila y = 350
         botonPasar.generarFilaAgujerosNegros();
+        
+        //Generamos las cartas de poderes
+        botonPasar.generarFilaCartas(650);
     }
 }

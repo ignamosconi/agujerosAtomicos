@@ -15,12 +15,15 @@ public class Persona extends Actor
      */
     private int posX;
     private int posY;
+    private AgujeroNegro agujero;
     
 
     /**
      * MÉTODO ACT - Es llamado cada vez que el botón Act o Run se presione en la ventana principal de Greenfoot.
      */
-    public void act() { }
+    public void act() {
+    
+    }
     
     /**
      * MÉTODOS

@@ -23,18 +23,160 @@ UTF-8
 D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java
 <---- end of javadoc command ---->
 Loading source file D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java...
-Constructing Javadoc information...
-warning: unknown enum constant Tag.Any
-  reason: class file for threadchecker.Tag not found
-warning: unknown enum constant Tag.Any
-Standard Doclet version 11.0.14.1
-Building tree for all the packages and classes...
-Generating D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\doc\PasarTurno.html...
-Generating D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\doc\package-summary.html...
-Generating D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\doc\constant-values.html...
-Building index for all the packages and classes...
-Building index for all classes...
-Generating D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\doc\allclasses.html...
-Generating D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\doc\allclasses.html...
-Generating D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\doc\index.html...
-2 warnings
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:55: error: class, interface, or enum expected
+    public ArrayList <String> getFilaCohetes() {
+           ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:57: error: class, interface, or enum expected
+    }
+    ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:59: error: class, interface, or enum expected
+    public ArrayList <String> getFilaAgujerosNegros() {
+           ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:61: error: class, interface, or enum expected
+    }
+    ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:70: error: class, interface, or enum expected
+    public void generarFilaEnemigos(int fila) {
+           ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:75: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:75: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+                        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:75: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+                               ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:80: error: class, interface, or enum expected
+            if (random <= 49) {
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:84: error: class, interface, or enum expected
+            } else if(random >=50 && random <=74) {
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:88: error: class, interface, or enum expected
+            } else if (random >=75) {
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:90: error: class, interface, or enum expected
+            }
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:94: error: class, interface, or enum expected
+    }
+    ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:102: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+                        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:102: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+                               ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:108: error: class, interface, or enum expected
+                getWorld().addObject(cartaUFO, getColumna(i), fila);
+                ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:110: error: class, interface, or enum expected
+            }else if (filaEnemigos.get(i) == "Persona") {
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:112: error: class, interface, or enum expected
+                getWorld().addObject(cartaPersona, getColumna(i), fila);
+                ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:114: error: class, interface, or enum expected
+            }else if (filaEnemigos.get(i) == "Vacía") {
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:116: error: class, interface, or enum expected
+                getWorld().addObject(cartaVacía, getColumna(i), fila);  
+                ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:117: error: class, interface, or enum expected
+            }
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:126: error: <identifier> expected
+        List<Persona> personas = getWorld().getObjects(Persona.class);
+                                                                    ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:130: error: illegal start of type
+        if ((personas != null && !personas.isEmpty()) && (ufos != null && !ufos.isEmpty()) && (vacias != null && !vacias.isEmpty())) 
+        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:130: error: <identifier> expected
+        if ((personas != null && !personas.isEmpty()) && (ufos != null && !ufos.isEmpty()) && (vacias != null && !vacias.isEmpty())) 
+                     ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:130: error: <identifier> expected
+        if ((personas != null && !personas.isEmpty()) && (ufos != null && !ufos.isEmpty()) && (vacias != null && !vacias.isEmpty())) 
+                                                  ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:130: error: ';' expected
+        if ((personas != null && !personas.isEmpty()) && (ufos != null && !ufos.isEmpty()) && (vacias != null && !vacias.isEmpty())) 
+                                                    ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:149: error: class, interface, or enum expected
+    public void generarFilaCohetes() {
+           ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:154: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:154: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+                        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:154: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+                               ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:159: error: class, interface, or enum expected
+            if (random == 0) {
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:163: error: class, interface, or enum expected
+            } else if (random == 1) {
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:165: error: class, interface, or enum expected
+            }
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:170: error: class, interface, or enum expected
+    }
+    ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:177: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+                        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:177: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+                               ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:183: error: class, interface, or enum expected
+                getWorld().addObject(cartaCohete, getColumna(i), 550);
+                ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:185: error: class, interface, or enum expected
+            } else if (filaCohetes.get(i) == "Vacía") {
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:187: error: class, interface, or enum expected
+                getWorld().addObject(cartaVacía, getColumna(i), 550);  
+                ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:188: error: class, interface, or enum expected
+            }
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:193: error: class, interface, or enum expected
+    public void generarFilaAgujerosNegros() {
+           ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:197: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:197: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+                        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:197: error: class, interface, or enum expected
+        for (int i = 0; i < 4; i++) {
+                               ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:200: error: class, interface, or enum expected
+            getWorld().addObject(cartaAgujeroNegro, getColumna(i), 450);
+            ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:201: error: class, interface, or enum expected
+        }
+        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:204: error: class, interface, or enum expected
+    public int getColumna(int num) {
+           ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:212: error: class, interface, or enum expected
+        } else if (num == 1) {
+        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:214: error: class, interface, or enum expected
+        } else if (num == 2) {
+        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:216: error: class, interface, or enum expected
+        } else if (num == 3) {
+        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:218: error: class, interface, or enum expected
+        } else {
+        ^
+D:\Ignacio\Archivos\Escuela - Universidad\2do año\Paradigmas de Programación\Greenfoot\proyectoAgujerosAtómicos\agujerosAtomicos\agujerosAtómicosGreenfoot\PasarTurno.java:221: error: class, interface, or enum expected
+        }
+        ^
+52 errors

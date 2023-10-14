@@ -19,13 +19,20 @@ public class Vacía extends Actor
      * MÉTODO ACT - Es llamado cada vez que el botón Act o Run se presione en la ventana principal de Greenfoot.
      */
     public void act() {
-        getWorld().showText("Posición X:"+getX(),100,20);
-        getWorld().showText("Posición Y:"+getY(),450,20);
+        
+        if ( isTouching(AgujeroNegro.class)) { 
+             getWorld().removeObject(this);   
+        }
+    
     }
     
     /**
      * MÉTODOS
      */
+    
+    public void removerVacía() {
+
+    }
     
     //Movemos a Persona a cualquier parte del tablero
     public void setPos(int posX, int posY) {
