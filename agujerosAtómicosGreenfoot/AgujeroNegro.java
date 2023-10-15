@@ -27,17 +27,19 @@ public class AgujeroNegro extends Actor
                 getWorld().removeObject(getWorld().getObjects(Persona.class).get(0)); //Borramos la persona
             }
             
-            //Si estamos colisionando con un UFO, y está activado el agujero, lo eliminamos.
+            //Si estamos colisionando con un UFO, y está activado el agujero, lo eliminamos y cambiamos su estado.
             if (isTouching(UFO.class) && getEstado() == 1 ) {
                 removeTouching(UFO.class); //Borramos el UFO
                 cambiarEstado(); //Apagamos el agujero negro    
             } 
             
-            //Si estamos colisionando con un UFO y está desactivado el agujero, perdemos el juego.
-            if ((isTouching(UFO.class) && getEstado() == 0)) {
-                getWorld().showText("GAME OVER - INVASIÓN NO DETENIDA", 350,300);
-                getWorld().removeObject(getWorld().getObjects(UFO.class).get(0)); //Borramos los UFOS
-                getWorld().getObjects(PasarTurno.class).get(0).cambiarEstadoBotón(); //Deshabilitamos el botón
+            //Si un AgujeroNegro está colisionando con un UFO, lo bajamos una fila (y = 550), para chequear
+            //colisiones con cohetes (ver clase Cohetes).
+            List<UFO> ufos = getWorld().getObjects(UFO.class);
+            for (UFO ufo : ufos) {
+                if (isTouching(UFO.class) && getEstado() == 0 && ufo.getPosY() == 450 ) {
+                    ufo.setPos(ufo.getPosX(),550);
+                }
             }
         }        
     }

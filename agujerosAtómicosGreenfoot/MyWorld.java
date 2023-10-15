@@ -34,5 +34,9 @@ public class MyWorld extends World
         
         //Generamos las cartas de poderes
         botonPasar.generarFilaCartas(650);
+        
+        //Creamos el encabezado de puntuación:
+        showText("RONDAS",75,50);
+        showText("SOBREVIVIDAS",75,75);
     }
 }
