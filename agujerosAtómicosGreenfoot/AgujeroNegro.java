@@ -7,6 +7,8 @@ public class AgujeroNegro extends Actor
      * ATRIBUTOS
      */
     private int estado = 0;
+    private int bandera = 0;
+    
     private UFO ufos;
     
     /**
@@ -16,15 +18,19 @@ public class AgujeroNegro extends Actor
         
         //Ejecutamos act siempre y cuando el botón esté habilitado
         if ( getWorld().getObjects(PasarTurno.class).get(0).getEstadoBotón() == 1 ) {
+            
             //Si estamos colisionando con una persona, y está activado el agujero, terminamos el juego.
             //Si estamos colisionando con una persona pero no está activado el agujero, la eliminamos
             if ( (isTouching(Persona.class)) && getEstado() == 1 ) {
                 getWorld().showText("GAME OVER - CIVIL MUERTO", 300,300);
                 getWorld().removeObject(getWorld().getObjects(Persona.class).get(0)); //Borramos la persona
                 getWorld().getObjects(PasarTurno.class).get(0).cambiarEstadoBotón(); //Deshabilitamos el botón
-                
-            } else if (isTouching(Persona.class) && getEstado() == 0) {
-                getWorld().removeObject(getWorld().getObjects(Persona.class).get(0)); //Borramos la persona
+            }
+            
+            //Si el agujero está colisionando con una persona y está apagado, la borramos
+            if (isTouching(Persona.class) && getEstado() == 0) {
+                //getWorld().removeObject(getWorld().getObjects(Persona.class).get(0)); //Borramos la persona
+                removeTouching(Persona.class);
             }
             
             //Si estamos colisionando con un UFO, y está activado el agujero, lo eliminamos y cambiamos su estado.
@@ -33,17 +39,18 @@ public class AgujeroNegro extends Actor
                 cambiarEstado(); //Apagamos el agujero negro    
             } 
             
-            //Si un AgujeroNegro está colisionando con un UFO, lo bajamos una fila (y = 550), para chequear
-            //colisiones con cohetes (ver clase Cohetes).
-            List<UFO> ufos = getWorld().getObjects(UFO.class);
-            for (UFO ufo : ufos) {
-                if (isTouching(UFO.class) && getEstado() == 0 && ufo.getPosY() == 450 ) {
-                    ufo.setPos(ufo.getPosX(),550);
+            //Si un AgujeroNegro apagado está colisionando con un UFO, lo bajamos un nivel para poder chequear su colisión con cohete.
+            if ( (isTouching(UFO.class)) && getEstado() == 0 ) {
+                List<UFO> ufos = getWorld().getObjects(UFO.class);
+                for (UFO ufo : ufos) {
+                    if (ufo.getY() == 450 && isTouching(UFO.class) && getEstado() == 0 ) {
+                        ufo.setPos(ufo.getPosX(),550);
+                        ufo.chequearColisión();
+                    }
                 }
-            }
-        }        
+            }   
+        }
     }
-
     
     public void cambiarEstado() {
         if (getEstado() == 0) {

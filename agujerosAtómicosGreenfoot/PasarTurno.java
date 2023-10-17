@@ -33,10 +33,8 @@ public class PasarTurno extends Actor {
      * MÉTODO ACT - Es llamado cada vez que el botón Act o Run se presione en la ventana principal de Greenfoot.
      */
     public void act() {
-        
         //Ejecutamos el código solamente si el botón es presionado 
         if (Greenfoot.mouseClicked(this) && (getEstadoBotón() == 1)) {
-            
             //Cada vez que se presione el botón sumamos 1 a la cantidad de rondas sobrevividas.
             rondasSobrevividas++;
             getWorld().showText(String.valueOf(rondasSobrevividas),75,100);
