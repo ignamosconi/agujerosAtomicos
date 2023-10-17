@@ -33,9 +33,8 @@ public class UFO extends Actor
     public void chequearColisión() {
         //Si el ufo está tocando a un cohete, lo borramos a él y al cohete
         if (isTouching(Cohete.class)) {
-            Greenfoot.delay(5);
             removeTouching(Cohete.class);
-            setPos(1000,1000); // lo enviamos fuera del tablero (si hacemos removeObject.this crashea pq se tiene que usar después)
+            setPos(1000,1000); // enviamos al ufo fuera del tablero (si hacemos removeObject.this crashea pq se tiene que usar después)
         }   
         
         //Si el ufo NO está tocando un cohete, y está en la última fila, significa que perdimos el juego.
