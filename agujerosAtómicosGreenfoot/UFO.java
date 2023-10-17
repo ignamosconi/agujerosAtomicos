@@ -35,13 +35,13 @@ public class UFO extends Actor
         if (isTouching(Cohete.class)) {
             Greenfoot.delay(5);
             removeTouching(Cohete.class);
-            setPos(1000,1000); // lo enviamos fuera del tablero
+            setPos(1000,1000); // lo enviamos fuera del tablero (si hacemos removeObject.this crashea pq se tiene que usar después)
         }   
         
         //Si el ufo NO está tocando un cohete, y está en la última fila, significa que perdimos el juego.
         if (isTouching(Cohete.class) == false && getPosY() == 550) {
             getWorld().showText("GAME OVER - INVASIÓN NO DETENIDA", 300,300);
-            //getWorld().getObjects(PasarTurno.class).get(0).cambiarEstadoBotón(); //Deshabilitamos el botón   
+            getWorld().getObjects(PasarTurno.class).get(0).cambiarEstadoBotón(); //Deshabilitamos el botón   
         }
     }
     
