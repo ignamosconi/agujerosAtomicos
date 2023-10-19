@@ -34,6 +34,7 @@ public class UFO extends Actor
         //Si el ufo está tocando a un cohete, lo borramos a él y al cohete
         if (isTouching(Cohete.class)) {
             removeTouching(Cohete.class);
+            setImage("empty.png"); //hacemos invisible al ufo
             setPos(1000,1000); // enviamos al ufo fuera del tablero (si hacemos removeObject.this crashea pq se tiene que usar después)
         }   
         
